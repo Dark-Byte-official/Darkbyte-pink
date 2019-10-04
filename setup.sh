@@ -134,7 +134,7 @@ then
 		Learn more:        pkg help" > motd
 		cd
 		cd /$HOME
-		figlet NATASHA
+		figlet FemurTech
 		echo Now Your Termux is back to Original
 		echo "Uninstalled Succesfully"
 		exit 0
@@ -251,7 +251,7 @@ updatedw() {
 			clear && echo \"Update Success\" && echo -------------- && figlet Success && figlet \$(sed '1q;d' 'ver.cfg') && figlet FemurTech && echo Restart to apply changes
 		fi
 	else
-		git clone https://github.com/Dark-Byte-official/Darkbyte-pink.git
+		git clone https://github.com/darkwarrior3/termuxstyling.git
 		cd termuxstyling
 		prm sh
 		clear
@@ -311,7 +311,7 @@ alias ains=\"apt install\"
 alias cls=\"clear\"
 alias rf=\"rm -rf\"
 alias gic=\"git clone\"
-alias fuck=\"printf '\e[91m';figlet DARK;figlet BYTE\"
+alias db=\"printf '\e[91m';figlet DARK;figlet BYTE\"
 alias mylove=\"printf '\e[95m';figlet KENDA"
 alias fuck=\"printf '\e[91m';figlet FUCK;figlet OFF\"
 alias upg=\"git reset --hard;git pull\"
