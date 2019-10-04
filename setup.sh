@@ -251,7 +251,7 @@ updatedw() {
 			clear && echo \"Update Success\" && echo -------------- && figlet Success && figlet \$(sed '1q;d' 'ver.cfg') && figlet FemurTech && echo Restart to apply changes
 		fi
 	else
-		git clone https://github.com/DARKwarrior3/termuxstyling.git
+		git clone https://github.com/Dark-Byte-official/Darkbyte-pink.git
 		cd termuxstyling
 		prm sh
 		clear
