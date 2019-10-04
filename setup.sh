@@ -98,7 +98,7 @@ clear
 #Script starts
 #cd $HOME
 #cd termuxstyling
-echo Script made by:- DARK BYTE
+echo Script made by:- Dark Byte
 #Uninstall
 if [ -e ".user.cfg" ]
 then
@@ -251,7 +251,7 @@ updatedw() {
 			clear && echo \"Update Success\" && echo -------------- && figlet Success && figlet \$(sed '1q;d' 'ver.cfg') && figlet FemurTech && echo Restart to apply changes
 		fi
 	else
-		git clone https://github.com/Dark-Byte-official/Darkbyte-pink.git
+		git clone https://github.com/darkwarrior3/termuxstyling.git
 		cd termuxstyling
 		prm sh
 		clear
@@ -311,9 +311,9 @@ alias ains=\"apt install\"
 alias cls=\"clear\"
 alias rf=\"rm -rf\"
 alias gic=\"git clone\"
-alias fuck=\"printf '\e[0m';figlet FUCK;figlet OFF\"
-alias mylove=\"printf '\e[95m';figlet KENDA\"
-alias db=\"printf '\e[91m';figlet DARK;figlet BYTE\"                     
+alias fuck=\"printf '\e[91m';figlet DARK;figlet BYTE\"
+alias mylove=\"printf '\e[95m';figlet KENDA"
+alias fuck=\"printf '\e[91m';figlet FUCK;figlet OFF\"
 alias upg=\"git reset --hard;git pull\"
 alias update=\"apt-get update;apt-get upgrade\"" > /data/data/com.termux/files/usr/etc/bash.bashrc
 cd /$HOME
